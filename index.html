@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+ <html lang='pt-BR'>
+  <head>
+   <meta charset='UTF-8'>
+   <meta name='viewport' content='width=device-width, initial-scale=1, shrink-to-fit=no'>
+   <meta name='description' content=''>
+   <meta name='keywords' content=''>
+   <meta name='author' content='Alessandro Dev'>
+   <link rel='shortcut icon' href='./favicon.ico' type='image/x-icon'>
+   <title>Form example</title>
+   <link rel='stylesheet' href='./style.css'>
+  </head>
+ <body>
+	 <div class="container">
+		<h1>example</h1>
+		<form action="#" method="get" id="form">
+			
+			<fieldset class="input-group">
+				<label for="email">email</label>
+				<input type="email" name="email" id="email" value="" required maxlength="30">
+			</fieldset>
+		
+		
+			<fieldset class="input-group">
+				<label for="password">password</label>
+				<input type="password" id="password" name="password" value="" required maxlength="14" minlength="5">
+			</fieldset>
+		
+
+			<fieldset class="input-group">
+				<label for="admin">admin</label>
+				<input type="checkbox" name="admin" id="admin" value="true">
+			</fieldset>
+		
+			<fieldset class="input-group">
+				<input type="reset" value="limpar">
+				<input type="submit" value="enviar">
+			</fieldset>
+		</form>
+		<script src="./main.js"></script>
+	</div>
+ </body>
+</html>
