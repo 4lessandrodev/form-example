@@ -1,0 +1,68 @@
+body {
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	background-color: rgb(47, 44, 44);
+}
+
+.container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	min-width: 100%;
+	width: 100%;
+}
+
+h1 {
+	sans-serif;
+	text-transform: uppercase;
+	font-size: 1.5rem;
+	color: white;
+}
+
+.input-group {
+	display: flex;
+	flex-direction: column;
+	border-radius: 7px;
+	margin: 0.4rem;
+	border-color: white;
+}
+
+.input-group>label {
+	margin-bottom: 2%;
+	text-transform: capitalize;
+	font-weight: bold;
+}
+
+form {
+	background-color: #ededed;
+	padding: 5%;
+	border: 1px solid darkslategray;
+	width: 50%;
+	max-width: 400px;
+	min-width: 300px;
+	border-radius: 20px;
+}
+
+.input-group input {
+	border-radius: 7px;
+	border: 1px solid darkslategray;
+	padding: 2%;
+}
+
+.input-group input[type=submit] {
+	background-color: rgb(8, 62, 8);
+	color: white;
+}
+
+.input-group input[type=reset] {
+	background-color: rgb(122, 2, 42);
+	color: white;
+}
+
+.input-group input[type=submit], 
+.input-group input[type=reset] {
+	text-transform: capitalize;
+	margin: 0.4%;
+	font-weight: bold;
+	font-size: 1.1rem;
+}
